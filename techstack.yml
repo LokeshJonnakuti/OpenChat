@@ -1,0 +1,1821 @@
+repo_name: LokeshJonnakuti/OpenChat
+report_id: 5a21c12ba27697537df9c9e9e7c8c020
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-14T10:52:01+00:00'
+requested_by: codebanesr
+provider: github
+branch: main
+detected_tools_count: 126
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/package.json
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.json
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 10.10.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.2.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/Dockerfile
+  detection_source: llm-server/Dockerfile
+  last_updated_by: codebanesr
+  last_updated_on: 2023-08-20 15:41:29.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/package.json
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 4.23.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/package.json
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Celery
+  description: Distributed task queue
+  website_url: http://www.celeryproject.org/
+  version: 5.3.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1075/celery.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: codebane
+  last_updated_on: 2023-10-24 12:33:51.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/docker-compose.yaml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: codebane
+  last_updated_on: 2023-10-24 12:33:51.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/docker-compose.yaml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-09 10:26:21.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: '5.7'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/docker-compose.yml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-09 10:26:21.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: '3.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/docker-compose.yml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: codebane
+  last_updated_on: 2023-10-24 12:33:51.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 2.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/Dockerfile
+  detection_source: backend-server/Dockerfile
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/package.json
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/package.json
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/.github/workflows/tests.yml
+  detection_source: ".github/workflows/tests.yml"
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/docker-compose.yaml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-09 10:26:21.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 10.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/Dockerfile
+  detection_source: backend-server/Dockerfile
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/package.json
+  detection_source: backend-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/yarn.lock
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/package.json
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: Adminer
+  description: Full-featured database management tool written in PHP.
+  website_url: https://www.adminer.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/docker-compose.yaml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: codebane
+  last_updated_on: 2023-10-25 18:28:54.000000000 Z
+- name: Base
+  description: All-in-one sales and customer management platform
+  website_url: https://getbase.com/
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: CRM
+  image_url: https://img.stackshare.io/service/3633/ZBMmmvP1_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/docker-compose.yaml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-09 10:26:21.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.110
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-15 23:31:06.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.25.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 3.3.0
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 0.0.12
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: Qdrant
+  description: Open-source Vector Search Engine and Vector Database written in Rust
+  website_url: https://qdrant.tech/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/48298/default_d234d62c02c7862d4384fbbf0bcbb94ff723df73.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/docker-compose.yaml
+  detection_source: dj_backend_server/docker-compose.yaml
+  last_updated_by: codebane
+  last_updated_on: 2023-10-24 12:33:51.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: backend-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: 4.2.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: lvalics
+  last_updated_on: 2023-10-24 17:22:42.000000000 Z
+  vulnerabilities:
+  - name: Django potential denial of service vulnerability in UsernameField on Windows
+    cve_id: CVE-2023-46695
+    cve_url: https://github.com/advisories/GHSA-qmf9-6jqf-j8fq
+    detected_date: Apr 4
+    severity: high
+    first_patched: 4.2.7
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+  vulnerabilities:
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via version
+    cve_id: CVE-2023-49081
+    cve_url: https://github.com/advisories/GHSA-q3qx-c6g2-7pw2
+    detected_date: Nov 28
+    severity: high
+    first_patched: 3.9.0
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: AIOHTTP has problems in HTTP parser (the python one, not llhttp)
+    cve_id: CVE-2023-47627
+    cve_url: https://github.com/advisories/GHSA-gfw2-4jvh-wgfg
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp has vulnerable dependency that is vulnerable to request smuggling
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pjjw-qhg8-p2p9
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via method
+    cve_id: CVE-2023-49082
+    cve_url: https://github.com/advisories/GHSA-qvrw-v9rv-5rjx
+    detected_date: Nov 28
+    severity: moderate
+    first_patched: 3.9.0
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 41.0.3
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: shanur rahman
+  last_updated_on: 2023-08-10 22:02:14.000000000 Z
+  vulnerabilities:
+  - name: cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates
+      when called with a non-matching certificate and private key and an hmac_hash
+      override
+    cve_id: CVE-2024-26130
+    cve_url: https://github.com/advisories/GHSA-6vqw-3v5j-54x4
+    detected_date: Feb 22
+    severity: high
+    first_patched: 42.0.4
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+  vulnerabilities:
+  - name: Potential DoS via the Tudoor mechanism in eventlet and dnspython
+    cve_id: CVE-2023-29483
+    cve_url: https://github.com/advisories/GHSA-3rq5-2g8h-59hc
+    detected_date: Apr 13
+    severity: moderate
+    first_patched: 2.6.1
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+  vulnerabilities:
+  - name: Internationalized Domain Names in Applications (IDNA) vulnerable to denial
+      of service from specially crafted inputs to idna.encode
+    cve_id: CVE-2024-3651
+    cve_url: https://github.com/advisories/GHSA-jjg7-2v4v-x38h
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: '3.7'
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: PyMySQL
+  description: Pure Python MySQL Driver
+  package_url: https://pypi.org/project/PyMySQL
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19880/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-09 10:26:21.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: amqp
+  description: Low-level AMQP client for Python
+  package_url: https://pypi.org/project/amqp
+  version: 5.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20296/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: asgiref
+  description: ASGI specs, helper code, and adapters
+  package_url: https://pypi.org/project/asgiref
+  version: 3.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20739/default_88a4948f616ae7ccb7210803d2bd72b72851b6e9.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: async-timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async-timeout
+  version: 4.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 23.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: billiard
+  description: Python multiprocessing fork with improvements and bugfixes
+  package_url: https://pypi.org/project/billiard
+  version: 4.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20470/default_54107e01f42ee7fb9e6c385c975ec134753aae0a.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.7.22
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-26 08:42:29.000000000 Z
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 1.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: shanur rahman
+  last_updated_on: 2023-08-10 22:02:14.000000000 Z
+- name: channels
+  description: Brings async, event-driven capabilities to Django
+  package_url: https://pypi.org/project/channels
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20360/default_880acfa1f90ccca9f32847b7078d3e07c81e2d48.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 3.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: shanur rahman
+  last_updated_on: 2023-08-10 22:02:14.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: click-plugins
+  description: An extension module for click to enable registering CLI commands via
+    setuptools entry-points
+  package_url: https://pypi.org/project/click-plugins
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20361/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: dataclasses-json
+  description: Easily serialize dataclasses to and from JSON
+  package_url: https://pypi.org/project/dataclasses-json
+  version: 0.5.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20519/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: django-cors-headers
+  description: Django-cors-headers is a Django application for handling the server
+    headers required for Cross-Origin Resource Sharing
+  package_url: https://pypi.org/project/django-cors-headers
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20425/default_fd0859a8a050b41b42cc678a2c0c5f51ce41801a.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: lvalics
+  last_updated_on: 2023-10-24 17:22:42.000000000 Z
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: shanur rahman
+  last_updated_on: 2023-08-10 22:02:14.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.56.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: grpcio-tools
+  description: Protobuf code generator for gRPC
+  package_url: https://pypi.org/project/grpcio-tools
+  version: 1.56.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20003/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: h11
+  description: A pure-Python
+  package_url: https://pypi.org/project/h11
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: h2
+  description: HTTP/2 State-Machine based protocol implementation
+  package_url: https://pypi.org/project/h2
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20795/default_9ca241da01759150a631f1a4419765b91249245f.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.24.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: kombu
+  description: Messaging library for Python
+  package_url: https://pypi.org/project/kombu
+  version: 5.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20085/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: loguru
+  description: Python logging made
+  package_url: https://pypi.org/project/loguru
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20043/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: marshmallow
+  description: A lightweight library for converting complex datatypes to and from
+    native Python datatypes
+  package_url: https://pypi.org/project/marshmallow
+  version: 3.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: multidict
+  description: Multidict implementation
+  package_url: https://pypi.org/project/multidict
+  version: 6.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20160/default_8822b1755ae0c97a622ebcb1aa9cafa328004f81.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: numexpr
+  description: Fast numerical expression evaluator for NumPy
+  package_url: https://pypi.org/project/numexpr
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20289/default_bae4ec34e549383af798a405820088989f617ff0.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.1'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: portalocker
+  description: Wraps the portalocker recipe for easy usage
+  package_url: https://pypi.org/project/portalocker
+  version: 2.7.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20277/default_267c21fe20acb6a3a56ea60f8b271e1ab445049d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.39
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.21'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: shanur rahman
+  last_updated_on: 2023-08-10 22:02:14.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2023.6.3
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-08-05 18:33:10.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: soupsieve
+  description: A modern CSS selector implementation for Beautiful Soup
+  package_url: https://pypi.org/project/soupsieve
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-28 05:27:41.000000000 Z
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/project/sqlparse
+  version: 0.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: shanur rahman
+  last_updated_on: 2023-08-10 22:02:14.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.65.0
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: typing-inspect
+  description: Runtime inspection utilities for typing module
+  package_url: https://pypi.org/project/typing-inspect
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: vine
+  description: Promises, promises, promises
+  package_url: https://pypi.org/project/vine
+  version: 5.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-30 14:05:04.000000000 Z
+- name: yarl
+  description: Yet another URL library
+  package_url: https://pypi.org/project/yarl
+  version: 1.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20083/default_d8789f2f1b5b4e9994bef68371453a20460b4d6e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/dj_backend_server/requirements.txt
+  detection_source: dj_backend_server/requirements.txt
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-31 12:15:43.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: backend-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.17.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.59.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: ignore
+  description: Ignore is a manager and filter for .gitignore rules
+  package_url: https://www.npmjs.com/ignore
+  version: 5.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17744/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-03 18:57:05.000000000 Z
+- name: langchain
+  description: Typescript bindings for langchain
+  package_url: https://www.npmjs.com/langchain
+  version: 0.0.110
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: Shanur Rahman
+  last_updated_on: 2023-07-15 23:31:06.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: react-hotkeys-hook
+  description: React hook for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/react-hotkeys-hook
+  version: 4.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  version: 15.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/widgets/search/yarn.lock
+  detection_source: widgets/search/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-06-19 16:43:18.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 3.12.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/llm-server/yarn.lock
+  detection_source: llm-server/package.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: aws/aws-sdk-php-laravel
+  description: A simple Laravel 5/6/7/8/9 service provider for including the AWS SDK
+    for PHP
+  package_url: https://packagist.org/aws/aws-sdk-php-laravel
+  version: 3.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 10.10.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: laravel/socialite
+  description: Laravel wrapper around OAuth 1 &amp; OAuth 2 libraries
+  package_url: https://packagist.org/laravel/socialite
+  version: 5.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: laravel/telescope
+  description: An elegant debug assistant for the Laravel framework
+  package_url: https://packagist.org/laravel/telescope
+  version: 4.14.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 7.5.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 10.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/OpenChat/blob/main/backend-server/composer.lock
+  detection_source: backend-server/composer.json
+  last_updated_by: gharbat
+  last_updated_on: 2023-05-30 15:18:58.000000000 Z
