@@ -1,9 +1,9 @@
 import os
 import hashlib
-import requests
 from urllib.parse import urlparse
 from django.core.files.base import ContentFile
 from django.core.files.storage import FileSystemStorage
+from security import safe_requests
 
 def get_logo_from_url(url):
     try:
@@ -11,7 +11,7 @@ def get_logo_from_url(url):
         domain = urlparse(url).netloc
 
         # Make request to Clearbit API using Python's requests library
-        response = requests.get(f'https://logo.clearbit.com/{domain}')
+        response = safe_requests.get(f'https://logo.clearbit.com/{domain}')
 
         # Check if request was successful
         if response.status_code == 200:

@@ -2,12 +2,10 @@ import os
 import requests
 import re
 from bs4 import BeautifulSoup
-from web.signals.website_data_source_crawling_was_completed import website_data_source_crawling_completed 
 from web.models.crawled_pages import CrawledPages
 from web.models.website_data_sources import WebsiteDataSource
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
-from django.utils.text import slugify
 from uuid import uuid4
 from urllib.parse import urlparse, urlunparse
 from web.enums.website_data_source_status_enum import WebsiteDataSourceStatusType
@@ -16,6 +14,7 @@ from web.listeners.ingest_website_data_source import handle_crawling_completed
 import logging
 import os
 from dotenv import load_dotenv
+from security import safe_requests
 
 load_dotenv()
 
@@ -175,7 +174,7 @@ def crawl(data_source_id, url, crawled_urls, max_pages, chatbot_id):
 
     try:
         # Send an HTTP GET request to the URL
-        response = requests.get(url)
+        response = safe_requests.get(url)
         response.raise_for_status()  # Raise an exception for bad responses (e.g., 404, 500)
 
         # Retrieve the HTML content of the page
