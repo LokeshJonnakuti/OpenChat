@@ -13,7 +13,7 @@ def handle_crawling_completed(chatbot_id, website_data_source_id):
 
     try:
         url = os.getenv('APP_URL') + "/api/ingest/" 
-        response = requests.post(url, json=request_body)
+        response = requests.post(url, json=request_body, timeout=60)
 
         if response.status_code != 200:
             raise Exception('Ingest service returned an error: ' + response.text)

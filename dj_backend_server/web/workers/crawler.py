@@ -175,7 +175,7 @@ def crawl(data_source_id, url, crawled_urls, max_pages, chatbot_id):
 
     try:
         # Send an HTTP GET request to the URL
-        response = requests.get(url)
+        response = requests.get(url, timeout=60)
         response.raise_for_status()  # Raise an exception for bad responses (e.g., 404, 500)
 
         # Retrieve the HTML content of the page

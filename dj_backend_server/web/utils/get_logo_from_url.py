@@ -11,7 +11,7 @@ def get_logo_from_url(url):
         domain = urlparse(url).netloc
 
         # Make request to Clearbit API using Python's requests library
-        response = requests.get(f'https://logo.clearbit.com/{domain}')
+        response = requests.get(f'https://logo.clearbit.com/{domain}', timeout=60)
 
         # Check if request was successful
         if response.status_code == 200:

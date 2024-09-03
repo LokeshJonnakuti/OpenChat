@@ -80,7 +80,7 @@ def process_pdf(FilePath,directory_path):
           return
     
     try:
-        r = requests.post(RequestUrl, data=image_data, auth=(UserName, LicenseCode))
+        r = requests.post(RequestUrl, data=image_data, auth=(UserName, LicenseCode), timeout=60)
         
         # Decode Output response
         jobj = json.loads(r.content)
