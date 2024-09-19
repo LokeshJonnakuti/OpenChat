@@ -16,6 +16,7 @@ from web.listeners.ingest_website_data_source import handle_crawling_completed
 import logging
 import os
 from dotenv import load_dotenv
+from security import safe_requests
 
 load_dotenv()
 
@@ -175,7 +176,7 @@ def crawl(data_source_id, url, crawled_urls, max_pages, chatbot_id):
 
     try:
         # Send an HTTP GET request to the URL
-        response = requests.get(url)
+        response = safe_requests.get(url)
         response.raise_for_status()  # Raise an exception for bad responses (e.g., 404, 500)
 
         # Retrieve the HTML content of the page
