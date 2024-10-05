@@ -1,3 +1,5 @@
+import secrets
+
 def get_session_id(request, bot_id):
     cookie_name = 'chatbot_' + str(bot_id)
 
@@ -7,7 +9,6 @@ def get_session_id(request, bot_id):
 
 
 import re
-import random
 import string
 
 def generate_chatbot_name(repo_url, name=None):
@@ -31,7 +32,7 @@ def generate_chatbot_name(repo_url, name=None):
 
     # If 'name' is not provided in the POST request, generate a random string
     if name is None:
-        random_suffix = ''.join(random.choices(string.ascii_letters, k=5))
+        random_suffix = ''.join(secrets.SystemRandom().choices(string.ascii_letters, k=5))
         name = f"{default_name}-{random_suffix}"
 
     return name
